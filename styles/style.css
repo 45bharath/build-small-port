@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
+
+*, *::after,
+*::before {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 18px;
+}
+
+:root {
+    --clr-primary-color: #1B9AAA;
+    --clr-seconday-color: #F26430;
+    --clr-text-color: #DBD8F0;
+    --clr-dark-color: #7A6F9B;
+    --clr-white: #fff;
+    --clr-black: #000;
+}
+
+body {
+    font-family: 'Oswald' sans-serif;
+    background-color: var(--clr-text-color);
+    color: var(--clr-black);
+}
